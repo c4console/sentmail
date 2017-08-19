@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="emailmanuallysend.c4console.com.testing.MainActivity">
+
+    <TextView
+        android:id="@+id/msgtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click button and sent email manually...!"
+        android:textSize="18sp"
+        android:textColor="#561919"
+        android:textStyle="bold"/>
+
+    <Button
+        android:text="E-mail "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/msgtext"
+        android:layout_marginTop="57dp"
+        android:background="#6b1c81"
+        android:textColor="#ffffff"
+        android:id="@+id/manuallyEmailbutton" />
+
+</RelativeLayout>
